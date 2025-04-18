@@ -22,7 +22,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "https://is413final-frontend.azurewebsites.net") // Remember this isn't a real site yet, I need to deploy
+        policy.WithOrigins("http://localhost:3000", "https://delightful-cliff-05703081e.6.azurestaticapps.net") // Remember this isn't a real site yet, I need to deploy
             .AllowCredentials()
             .AllowAnyHeader()
             .AllowAnyMethod();
