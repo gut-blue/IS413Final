@@ -3,7 +3,7 @@
 import type { SummaryEntertainer } from '../types/SummaryEntertainer';
 import type { FullEntertainer } from '../types/FullEntertainer';
 
-const BASE = import.meta.env.VITE_API_URL ?? 'https://localhost:5000/Entertainer';
+const BASE = import.meta.env.VITE_API_URL ?? 'https://is413final-backend.azurewebsites.net/Entertainer';
 
 // fetch list of summary DTOs for the table view
 export async function fetchEntertainers(): Promise<SummaryEntertainer[]> {
